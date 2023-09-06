@@ -1,0 +1,30 @@
+.textAbout {
+    width: 50%;
+    margin-top: 120px;
+    margin-bottom:200px ;
+    text-align: start;
+    padding: 50px;
+
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+    border: 7px solid yellow;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0 0 30px #eaff003e;
+
+}
+.textAbout img {
+    border-radius: 100%;
+    width: 250px;
+    position: absolute;
+    left: 130px;
+
+    border: 7px solid yellow;
+    box-shadow: 0 0 30px #eaff003e;
+
+}
+.textAbout p{
+    margin-left: 150px;
+}

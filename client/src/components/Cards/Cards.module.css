@@ -1,0 +1,10 @@
+.contenedor {
+    min-height: 100vh;
+    width: 80%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    }

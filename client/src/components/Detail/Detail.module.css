@@ -1,0 +1,52 @@
+.contenedor {
+    min-height: 100vh;
+    margin-top: 70px;
+
+    display: flex;
+    height: 520px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contenedorInfo {
+    position: absolute;
+    margin: 50px 0 0 -50px;
+    height: 63%;
+    width: 30%;
+    text-align: start;
+    padding: 0px 220px 0 300px;
+
+    align-items: center;
+
+    color: white;
+
+    border: 7px solid yellow;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0 0 30px #eaff003e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+
+.contenedorInfo h1 {
+    color: rgb(234, 255, 0);
+}
+
+.contenedorInfo h2 {
+    font-weight: 100;
+    margin: 0px 0 10px 0;
+}
+
+.contenedorImg {    
+    position: absolute;
+    margin: 83px 0 0 55%;
+}
+.contenedorImg img{
+    width: 300px;
+    border-radius: 100%;    
+    border: 7px solid yellow;
+    box-shadow: 0 0 30px #eaff003e;
+}
