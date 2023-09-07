@@ -16,7 +16,7 @@ const FavoriteModel = require('./models/Favorite');
 // );
 const sequelize = new Sequelize(
    // URL
-   `${DATABASE_URL}/rickandmorty`,
+   `${DATABASE_URL}`,
    { logging: false, native: false }
 );
 
