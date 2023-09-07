@@ -11,7 +11,10 @@ import { Routes, Route } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-axios.defaults.baseURL = "http://localhost:3001/rickandmorty";
+//local
+//axios.defaults.baseURL = "http://localhost:3001/rickandmorty";
+//deploy del servidor
+axios.defaults.baseURL = "https://rickandmorty-production-61ad.up.railway.app/rickandmorty";
 
 
 
