@@ -1,9 +1,9 @@
 const app = require('./src/app');
 const { conn } = require('./src/DB_connection')
 
-const PORT = 3001;
+const { PORT } = process.env;
 
 app.listen(PORT, () => {
-    conn.sync({ force: true });
+    conn.sync({ alter: true });
     console.log(`listening on port ${PORT}`);
 });
